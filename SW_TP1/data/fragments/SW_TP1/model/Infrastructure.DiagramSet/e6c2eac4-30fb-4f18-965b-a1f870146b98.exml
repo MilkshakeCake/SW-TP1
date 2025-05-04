@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SW_TP1" version="4">
+  <OBJECT>
+    <ID name="SW_TP1" mc="Infrastructure.DiagramSet" uid="e6c2eac4-30fb-4f18-965b-a1f870146b98"/>
+    <PID name="SW_TP1" mc="Standard.Project" uid="7820a521-c5b0-4707-a207-c016dffd26e9"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[SW_TP1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

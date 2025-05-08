@@ -55,3 +55,13 @@ GitHub URL: https://github.com/MilkshakeCake/SW-TP1
 **윤대현**
 
 **최종윤**
+다음 사항들에 대해 Requirements List, Use Case Diagram, Description을 작성했습니다:
+1. 방문자 회원 가입
+2. 관리자 대여소 등록
+3. 관리자 대여소 리스트 조회
+4. 관리자 대여소 상세정보 조회
+5. 관리자 대여소 삭제
+
+팀원 권아림 및 윤대현의 Requirements List, Use Case Diagram, Description이 타당한지 확인했습니다.
+
+통합된 Use Case Diagram의 명칭 방식을 통일시키고 일부 잘못된 Communication Link를 수정했습니다.

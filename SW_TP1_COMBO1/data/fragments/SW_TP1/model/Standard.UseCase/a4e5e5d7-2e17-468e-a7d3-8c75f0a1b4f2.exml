@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Query Bicycle Detail" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="자전거 상세정보 조회" version="4">
   <OBJECT>
-    <ID name="Query Bicycle Detail" mc="Standard.UseCase" uid="a4e5e5d7-2e17-468e-a7d3-8c75f0a1b4f2"/>
+    <ID name="자전거 상세정보 조회" mc="Standard.UseCase" uid="a4e5e5d7-2e17-468e-a7d3-8c75f0a1b4f2"/>
     <PID name="Admin Use Case" mc="Standard.Package" uid="d4a0e55a-c88c-4e89-9022-dd38419aa3ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Query Bicycle Detail]]></ATT>
+      <ATT name="Name"><![CDATA[자전거 상세정보 조회]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

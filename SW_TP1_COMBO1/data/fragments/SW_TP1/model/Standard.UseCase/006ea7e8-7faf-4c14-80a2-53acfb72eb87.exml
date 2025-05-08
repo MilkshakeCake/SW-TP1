@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Delete Rental Record" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="기록 삭제" version="4">
   <OBJECT>
-    <ID name="Delete Rental Record" mc="Standard.UseCase" uid="006ea7e8-7faf-4c14-80a2-53acfb72eb87"/>
+    <ID name="기록 삭제" mc="Standard.UseCase" uid="006ea7e8-7faf-4c14-80a2-53acfb72eb87"/>
     <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Delete Rental Record]]></ATT>
+      <ATT name="Name"><![CDATA[기록 삭제]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Check Rental Record" mc="Standard.UseCase" uid="9074da57-ed14-4555-9c72-7ea12c319b09"/>
+              <ID name="이용 내역 조회" mc="Standard.UseCase" uid="9074da57-ed14-4555-9c72-7ea12c319b09"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>

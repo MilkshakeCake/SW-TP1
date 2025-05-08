@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cancel Reservation" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="예약 대기 취소" version="4">
   <OBJECT>
-    <ID name="Cancel Reservation" mc="Standard.UseCase" uid="1f83be6b-2ca7-4e0b-8da6-73b902712c8f"/>
+    <ID name="예약 대기 취소" mc="Standard.UseCase" uid="1f83be6b-2ca7-4e0b-8da6-73b902712c8f"/>
     <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Cancel Reservation]]></ATT>
+      <ATT name="Name"><![CDATA[예약 대기 취소]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Check Reservation Information" mc="Standard.UseCase" uid="df5be402-1fe7-482f-8527-8d2f6afef4a3"/>
+              <ID name="자전거 예약 대기 조회" mc="Standard.UseCase" uid="df5be402-1fe7-482f-8527-8d2f6afef4a3"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>

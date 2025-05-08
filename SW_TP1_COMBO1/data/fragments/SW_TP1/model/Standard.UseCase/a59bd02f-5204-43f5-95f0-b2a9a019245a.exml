@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Delete Bicycle" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="자전거 삭제" version="4">
   <OBJECT>
-    <ID name="Delete Bicycle" mc="Standard.UseCase" uid="a59bd02f-5204-43f5-95f0-b2a9a019245a"/>
+    <ID name="자전거 삭제" mc="Standard.UseCase" uid="a59bd02f-5204-43f5-95f0-b2a9a019245a"/>
     <PID name="Admin Use Case" mc="Standard.Package" uid="d4a0e55a-c88c-4e89-9022-dd38419aa3ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Delete Bicycle]]></ATT>
+      <ATT name="Name"><![CDATA[자전거 삭제]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Query Bicycle List" mc="Standard.UseCase" uid="99a7bd1d-0002-4782-9ecd-88f32fdc6f14"/>
+              <ID name="자전거 리스트 조회" mc="Standard.UseCase" uid="99a7bd1d-0002-4782-9ecd-88f32fdc6f14"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>

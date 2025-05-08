@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sort Statistic By Region" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="지역별 정렬" version="4">
   <OBJECT>
-    <ID name="Sort Statistic By Region" mc="Standard.UseCase" uid="00412304-1fe1-4ad9-81a8-dcd6e078d898"/>
+    <ID name="지역별 정렬" mc="Standard.UseCase" uid="00412304-1fe1-4ad9-81a8-dcd6e078d898"/>
     <PID name="Admin Use Case" mc="Standard.Package" uid="d4a0e55a-c88c-4e89-9022-dd38419aa3ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,20 +9,20 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sort Statistic By Region]]></ATT>
+      <ATT name="Name"><![CDATA[지역별 정렬]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="e86530e1-4e5f-4527-9929-ef9f99666a4a"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="b2585126-ef4c-49ab-9806-60cba1eca52d"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Query Bicycle Usage Statistics" mc="Standard.UseCase" uid="18688f20-6f2c-42ab-9583-3a5a3e418f81"/>
+              <ID name="자전거 대여 정보 조회" mc="Standard.UseCase" uid="b73cc900-c434-440a-b217-e1cb0455960a"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>

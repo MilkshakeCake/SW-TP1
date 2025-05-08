@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sign Up" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="회원 가입" version="4">
   <OBJECT>
-    <ID name="Sign Up" mc="Standard.UseCase" uid="2c8b36be-9c31-4945-b61f-1b99f10a539b"/>
+    <ID name="회원 가입" mc="Standard.UseCase" uid="2c8b36be-9c31-4945-b61f-1b99f10a539b"/>
     <PID name="sw_tp1" mc="Standard.Package" uid="f1d15986-7df7-4a16-9398-bf814d80653c"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sign Up]]></ATT>
+      <ATT name="Name"><![CDATA[회원 가입]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

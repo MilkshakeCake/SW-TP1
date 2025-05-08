@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Log In" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="로그인" version="4">
   <OBJECT>
-    <ID name="Log In" mc="Standard.UseCase" uid="48e42fc8-15d3-4602-8718-e607514ee6b2"/>
+    <ID name="로그인" mc="Standard.UseCase" uid="48e42fc8-15d3-4602-8718-e607514ee6b2"/>
     <PID name="sw_tp1" mc="Standard.Package" uid="f1d15986-7df7-4a16-9398-bf814d80653c"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Log In]]></ATT>
+      <ATT name="Name"><![CDATA[로그인]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -33,7 +33,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Member" mc="Standard.Actor" uid="a7493490-f820-4443-86b3-a4946c48c015"/>
+              <ID name="사용자" mc="Standard.Actor" uid="43a6efb5-8b3d-4a2e-8c29-85eeb6970dbc"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

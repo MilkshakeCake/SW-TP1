@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rental Immediately" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="자전거 대여" version="4">
   <OBJECT>
-    <ID name="Rental Immediately" mc="Standard.UseCase" uid="8ee538df-385a-42f1-ae73-757a94f92125"/>
+    <ID name="자전거 대여" mc="Standard.UseCase" uid="8ee538df-385a-42f1-ae73-757a94f92125"/>
     <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,10 +9,27 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Rental Immediately]]></ATT>
+      <ATT name="Name"><![CDATA[자전거 대여]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="195be310-4a49-4692-a566-3b91308d5b10"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="대여소 상세정보 조회" mc="Standard.UseCase" uid="b74362e0-2ec4-4fc0-8765-7e9738e2cc02"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="66490d37-8435-46dd-b7d7-f5eef37de544"/>
@@ -33,7 +50,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Texting Service" mc="Standard.Actor" uid="e1a152fa-4e5c-404f-b7b4-a0015aacee67"/>
+              <ID name="외부 문자 알림 시스템" mc="Standard.Actor" uid="e1a152fa-4e5c-404f-b7b4-a0015aacee67"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

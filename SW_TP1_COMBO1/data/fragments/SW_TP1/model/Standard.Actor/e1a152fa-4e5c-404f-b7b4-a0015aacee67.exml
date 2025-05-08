@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Texting Service" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="외부 문자 알림 시스템" version="4">
   <OBJECT>
-    <ID name="Texting Service" mc="Standard.Actor" uid="e1a152fa-4e5c-404f-b7b4-a0015aacee67"/>
+    <ID name="외부 문자 알림 시스템" mc="Standard.Actor" uid="e1a152fa-4e5c-404f-b7b4-a0015aacee67"/>
     <PID name="Actors" mc="Standard.Package" uid="229b856a-cea0-40e3-be04-3e713ec4d688"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Texting Service]]></ATT>
+      <ATT name="Name"><![CDATA[외부 문자 알림 시스템]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

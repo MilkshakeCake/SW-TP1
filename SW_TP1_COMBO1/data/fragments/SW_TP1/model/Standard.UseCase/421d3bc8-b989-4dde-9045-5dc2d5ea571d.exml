@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Return Bicycle" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="자전거 반납" version="4">
   <OBJECT>
-    <ID name="Return Bicycle" mc="Standard.UseCase" uid="421d3bc8-b989-4dde-9045-5dc2d5ea571d"/>
+    <ID name="자전거 반납" mc="Standard.UseCase" uid="421d3bc8-b989-4dde-9045-5dc2d5ea571d"/>
     <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Return Bicycle]]></ATT>
+      <ATT name="Name"><![CDATA[자전거 반납]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Query Current Rental Information" mc="Standard.UseCase" uid="3f4198cf-faaf-40f3-8d55-e421f912db95"/>
+              <ID name="자전거 대여 정보 조회" mc="Standard.UseCase" uid="3f4198cf-faaf-40f3-8d55-e421f912db95"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
@@ -50,7 +50,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Email Service" mc="Standard.Actor" uid="0c5928f9-0e8b-451f-a892-8ab43de9496a"/>
+              <ID name="외부 이메일 시스템" mc="Standard.Actor" uid="0c5928f9-0e8b-451f-a892-8ab43de9496a"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -111,7 +111,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Payment Service" mc="Standard.Actor" uid="d480e7c8-ad3e-478c-877a-afcec7c67e46"/>
+              <ID name="외부 결제 시스템" mc="Standard.Actor" uid="d480e7c8-ad3e-478c-877a-afcec7c67e46"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

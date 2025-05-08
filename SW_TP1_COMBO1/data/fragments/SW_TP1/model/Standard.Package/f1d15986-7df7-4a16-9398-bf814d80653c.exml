@@ -14,12 +14,16 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Log In" mc="Standard.UseCase" uid="48e42fc8-15d3-4602-8718-e607514ee6b2"/>
+        <COMPID name="로그인" mc="Standard.UseCase" uid="48e42fc8-15d3-4602-8718-e607514ee6b2"/>
         <COMPID name="Actors" mc="Standard.Package" uid="229b856a-cea0-40e3-be04-3e713ec4d688"/>
         <COMPID name="Admin Use Case" mc="Standard.Package" uid="d4a0e55a-c88c-4e89-9022-dd38419aa3ef"/>
         <COMPID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
-        <COMPID name="Log Out" mc="Standard.UseCase" uid="8a682e78-0c0a-4036-be7d-bd5953052db0"/>
-        <COMPID name="Sign Up" mc="Standard.UseCase" uid="2c8b36be-9c31-4945-b61f-1b99f10a539b"/>
+        <COMPID name="로그아웃" mc="Standard.UseCase" uid="8a682e78-0c0a-4036-be7d-bd5953052db0"/>
+        <COMPID name="회원 가입" mc="Standard.UseCase" uid="2c8b36be-9c31-4945-b61f-1b99f10a539b"/>
+        <COMPID name="대여 금액 및 대여 횟수 조회" mc="Standard.UseCase" uid="be52f3b6-2a03-4bbe-b053-1d4c27c44902"/>
+        <COMPID name="자전거 대여 정보 조회" mc="Standard.UseCase" uid="b73cc900-c434-440a-b217-e1cb0455960a"/>
+        <COMPID name="회원 탈퇴" mc="Standard.UseCase" uid="86590336-7748-4d08-a3b2-4bbec8c113b7"/>
+        <COMPID name="사용자" mc="Standard.Actor" uid="43a6efb5-8b3d-4a2e-8c29-85eeb6970dbc"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="sw_tp1 Use Case diagram" mc="Standard.UseCaseDiagram" uid="4efd6919-1cd5-4260-a922-c11f7755ab8e"/>

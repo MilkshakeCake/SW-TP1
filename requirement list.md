@@ -1,18 +1,18 @@
 ## Software Engineering Team Project: Requirement List
-
+  
 ---
-
+  
 ### **팀 정보**
-
-팀 멤버: 권아림, 김민현, 윤대현, 최종윤
-팀 코드: 58317
-UML 도구: Modelio
-GitHub URL: https://github.com/MilkshakeCake/SW-TP1
-
+  
+팀 멤버: 권아림, 김민현, 윤대현, 최종윤  
+팀 코드: 58317  
+UML 도구: Modelio  
+GitHub URL: https://github.com/MilkshakeCake/SW-TP1  
+  
 ---
-
-### Requirement List
-
+  
+### Requirement List  
+  
 | No. | Requirement                                                                                                                        | Use Case               |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | 1   | 관리자가 자전거 ID, 제품명, 유형(일반/전기), 소속 대여소, 상태(사용 가능/수리 중) 등을 입력해 자전거 리스트에 새로운 자전거를 등록하는 기능 | 자전거 등록     |
@@ -36,8 +36,8 @@ GitHub URL: https://github.com/MilkshakeCake/SW-TP1
 | 19  | 회원이 과거 자전거 대여 기록을 조회하는 기능                                                                                       | 대여 기록 조회         |
 | 20  | 회원이 대여 기록을 대여소 기준으로 정렬하여 조회하는 기능                                                                          | 대여소별 정렬          |
 | 21  | 회원이 과거 대여 기록 중 원하는 항목을 삭제하는 기능                                                                                | 기록 삭제              |
-| 22  | 회원이 로그인 하는 기능                                                                                                           | 로그인            |
-| 23  | 회원이 로그아웃 하는 기능                                                                                                           | 로그아웃            |
+| 22  | 사용자가 로그인 하는 기능                                                                                                           | 로그인            |
+| 23  | 사용자가 로그아웃 하는 기능                                                                                                           | 로그아웃            |
 | 24  | 방문자는 ID, 비밀번호, 전화번호, 결제 수단, 선호 자전거 유형(일반/전기) 등을 입력하여 회원으로 가입할 수 있어야 한다.                                                                                                           | 회원 가입            |
 | 25  | 관리자는 대여소 이름, 위치(도시, 주소), 자전거 보관 가능 수량, 운영 시간 등을 입력하여, 새로운 대여소를 등록할 수 있어야 한다.                                                                                                           | 대여소 등록            |
 | 26  | 관리자는 등록된 대여소 목록을 조회할 수 있어야 한다.                                                                                                           | 대여소 리스트 조회            |
@@ -64,17 +64,33 @@ GitHub URL: https://github.com/MilkshakeCake/SW-TP1
 
 **윤대현**
 
-**최종윤**
-
-전체 Use Case Diagram을 작성하고, 팀원들과 비교 및 분석하는 시간을 가졌습니다.
+전체 Use Case Diagram을 작성하고, 팀원들과 비교 및 분석하는 시간을 가졌습니다.  
 
 다음 사항들에 대해 Requirements List, Use Case Diagram, Description을 작성했습니다:
-1. 방문자 회원 가입
-2. 관리자 대여소 등록
-3. 관리자 대여소 리스트 조회
-4. 관리자 대여소 상세정보 조회
-5. 관리자 대여소 삭제
+1. 자전거 등록
+2. 자전거 리스트 조회
+3. 자전거 삭제
+4. 자전거 상세정보 조회
+5. 자전거 대여 기록 조회
+6. 자전거 대여 기록 지역별 정렬
+7. 대여 금액 및 대여 횟수 조회
+8. 대여 금액 및 대여 횟수 기간 단위 조회
 
-팀원 권아림 및 윤대현의 Requirements List, Use Case Diagram, Description이 타당한지 확인했습니다.
+팀원 권아림, 김민현의 Requirements List, Use Case Diagram, Description이 타당한지 확인했습니다.
+
+팀원 간 Use Case Diagram을 조율하고 화면 단위로 Use Case를 분할하는 토의 과정을 주도했습니다.
+
+**최종윤**
+
+전체 Use Case Diagram을 작성하고, 팀원들과 비교 및 분석하는 시간을 가졌습니다.  
+  
+다음 사항들에 대해 Requirements List, Use Case Diagram, Description을 작성했습니다:  
+1. 방문자 회원 가입  
+2. 관리자 대여소 등록  
+3. 관리자 대여소 리스트 조회  
+4. 관리자 대여소 상세정보 조회  
+5. 관리자 대여소 삭제  
+
+팀원 권아림 및 윤대현의 Requirements List, Use Case Diagram, Description이 타당한지 확인했습니다.  
 
 통합된 Use Case Diagram의 명칭 방식을 통일시키고 일부 잘못된 Communication Link를 수정했습니다.

@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="자전거 대여 정보 조회" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="자전거 대여 기록 최근순 조회" version="4">
   <OBJECT>
-    <ID name="자전거 대여 정보 조회" mc="Standard.UseCase" uid="b73cc900-c434-440a-b217-e1cb0455960a"/>
-    <PID name="sw_tp1" mc="Standard.Package" uid="f1d15986-7df7-4a16-9398-bf814d80653c"/>
+    <ID name="자전거 대여 기록 최근순 조회" mc="Standard.UseCase" uid="b73cc900-c434-440a-b217-e1cb0455960a"/>
+    <PID name="Admin Use Case" mc="Standard.Package" uid="d4a0e55a-c88c-4e89-9022-dd38419aa3ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[자전거 대여 정보 조회]]></ATT>
+      <ATT name="Name"><![CDATA[자전거 대여 기록 최근순 조회]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

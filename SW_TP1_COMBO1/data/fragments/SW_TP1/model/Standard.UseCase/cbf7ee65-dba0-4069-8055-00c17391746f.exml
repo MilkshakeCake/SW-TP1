@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="식당 예약" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="식당 예약 연계" version="4">
   <OBJECT>
-    <ID name="식당 예약" mc="Standard.UseCase" uid="cbf7ee65-dba0-4069-8055-00c17391746f"/>
+    <ID name="식당 예약 연계" mc="Standard.UseCase" uid="cbf7ee65-dba0-4069-8055-00c17391746f"/>
     <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[식당 예약]]></ATT>
+      <ATT name="Name"><![CDATA[식당 예약 연계]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -102,7 +102,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="InformationSource">
-              <ID name="식당 예약" mc="Standard.UseCase" uid="cbf7ee65-dba0-4069-8055-00c17391746f"/>
+              <ID name="식당 예약 연계" mc="Standard.UseCase" uid="cbf7ee65-dba0-4069-8055-00c17391746f"/>
             </LINK>
             <LINK relation="InformationTarget">
               <ID name="외부 식당 예약 시스템" mc="Standard.Actor" uid="e6644f7a-68ac-4241-8750-991f608a1aa9"/>

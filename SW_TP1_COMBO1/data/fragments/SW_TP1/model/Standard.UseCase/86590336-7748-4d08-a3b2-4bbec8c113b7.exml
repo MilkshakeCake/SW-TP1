@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="회원 탈퇴" version="4">
   <OBJECT>
     <ID name="회원 탈퇴" mc="Standard.UseCase" uid="86590336-7748-4d08-a3b2-4bbec8c113b7"/>
-    <PID name="sw_tp1" mc="Standard.Package" uid="f1d15986-7df7-4a16-9398-bf814d80653c"/>
+    <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

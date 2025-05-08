@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="이용 내역 조회" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="대여 기록 조회" version="4">
   <OBJECT>
-    <ID name="이용 내역 조회" mc="Standard.UseCase" uid="9074da57-ed14-4555-9c72-7ea12c319b09"/>
+    <ID name="대여 기록 조회" mc="Standard.UseCase" uid="9074da57-ed14-4555-9c72-7ea12c319b09"/>
     <PID name="Member Use Case" mc="Standard.Package" uid="324f1236-e2a3-492b-a91c-3d33d423d123"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[이용 내역 조회]]></ATT>
+      <ATT name="Name"><![CDATA[대여 기록 조회]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

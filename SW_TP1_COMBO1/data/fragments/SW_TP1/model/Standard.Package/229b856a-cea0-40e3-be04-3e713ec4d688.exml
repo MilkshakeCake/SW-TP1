@@ -14,13 +14,13 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Admin" mc="Standard.Actor" uid="7c4fcd99-8143-4b1d-9974-ab22e27c742e"/>
-        <COMPID name="Member" mc="Standard.Actor" uid="a7493490-f820-4443-86b3-a4946c48c015"/>
-        <COMPID name="Texting Service" mc="Standard.Actor" uid="e1a152fa-4e5c-404f-b7b4-a0015aacee67"/>
-        <COMPID name="Restaurant Connecting Service" mc="Standard.Actor" uid="e6644f7a-68ac-4241-8750-991f608a1aa9"/>
-        <COMPID name="Email Service" mc="Standard.Actor" uid="0c5928f9-0e8b-451f-a892-8ab43de9496a"/>
-        <COMPID name="Payment Service" mc="Standard.Actor" uid="d480e7c8-ad3e-478c-877a-afcec7c67e46"/>
-        <COMPID name="Visitor" mc="Standard.Actor" uid="11206ba4-f5ad-48e0-9fa8-193b8df16196"/>
+        <COMPID name="방문자" mc="Standard.Actor" uid="11206ba4-f5ad-48e0-9fa8-193b8df16196"/>
+        <COMPID name="관리자" mc="Standard.Actor" uid="7c4fcd99-8143-4b1d-9974-ab22e27c742e"/>
+        <COMPID name="회원" mc="Standard.Actor" uid="a7493490-f820-4443-86b3-a4946c48c015"/>
+        <COMPID name="외부 문자 알림 시스템" mc="Standard.Actor" uid="e1a152fa-4e5c-404f-b7b4-a0015aacee67"/>
+        <COMPID name="외부 이메일 시스템" mc="Standard.Actor" uid="0c5928f9-0e8b-451f-a892-8ab43de9496a"/>
+        <COMPID name="외부 결제 시스템" mc="Standard.Actor" uid="d480e7c8-ad3e-478c-877a-afcec7c67e46"/>
+        <COMPID name="외부 식당 예약 시스템" mc="Standard.Actor" uid="e6644f7a-68ac-4241-8750-991f608a1aa9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

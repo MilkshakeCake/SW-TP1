@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="대여 금액 및 대여 횟수 조회" version="4">
   <OBJECT>
     <ID name="대여 금액 및 대여 횟수 조회" mc="Standard.UseCase" uid="be52f3b6-2a03-4bbe-b053-1d4c27c44902"/>
-    <PID name="sw_tp1" mc="Standard.Package" uid="f1d15986-7df7-4a16-9398-bf814d80653c"/>
+    <PID name="Admin Use Case" mc="Standard.Package" uid="d4a0e55a-c88c-4e89-9022-dd38419aa3ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

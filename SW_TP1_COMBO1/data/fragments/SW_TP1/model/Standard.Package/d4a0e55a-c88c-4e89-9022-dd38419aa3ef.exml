@@ -14,16 +14,18 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="자전거 상세정보 조회" mc="Standard.UseCase" uid="a4e5e5d7-2e17-468e-a7d3-8c75f0a1b4f2"/>
-        <COMPID name="자전거 등록" mc="Standard.UseCase" uid="eac85fda-2c14-4180-ad96-752c39afbcf7"/>
-        <COMPID name="자전거 리스트 조회" mc="Standard.UseCase" uid="99a7bd1d-0002-4782-9ecd-88f32fdc6f14"/>
-        <COMPID name="자전거 삭제" mc="Standard.UseCase" uid="a59bd02f-5204-43f5-95f0-b2a9a019245a"/>
-        <COMPID name="지역별 정렬" mc="Standard.UseCase" uid="00412304-1fe1-4ad9-81a8-dcd6e078d898"/>
-        <COMPID name="기간 단위 선택" mc="Standard.UseCase" uid="1c821493-5915-4869-bfa0-a2131b1e1158"/>
-        <COMPID name="대여소 상세정보 조회" mc="Standard.UseCase" uid="65a99d68-30ec-451b-8cbe-df0713d5918e"/>
         <COMPID name="대여소 등록" mc="Standard.UseCase" uid="67a1ccd4-2e0f-4a05-8603-0b70518adaa0"/>
         <COMPID name="대여소 리스트 조회" mc="Standard.UseCase" uid="d7368905-2b94-475d-8e05-516bd904540d"/>
         <COMPID name="대여소 삭제" mc="Standard.UseCase" uid="23bc68fc-fa83-4ec6-81c0-fd57c9925238"/>
+        <COMPID name="대여소 상세정보 조회" mc="Standard.UseCase" uid="65a99d68-30ec-451b-8cbe-df0713d5918e"/>
+        <COMPID name="자전거 등록" mc="Standard.UseCase" uid="eac85fda-2c14-4180-ad96-752c39afbcf7"/>
+        <COMPID name="자전거 리스트 조회" mc="Standard.UseCase" uid="99a7bd1d-0002-4782-9ecd-88f32fdc6f14"/>
+        <COMPID name="자전거 삭제" mc="Standard.UseCase" uid="a59bd02f-5204-43f5-95f0-b2a9a019245a"/>
+        <COMPID name="자전거 상세정보 조회" mc="Standard.UseCase" uid="a4e5e5d7-2e17-468e-a7d3-8c75f0a1b4f2"/>
+        <COMPID name="대여 금액 및 대여 횟수 조회" mc="Standard.UseCase" uid="be52f3b6-2a03-4bbe-b053-1d4c27c44902"/>
+        <COMPID name="자전거 대여 정보 조회" mc="Standard.UseCase" uid="b73cc900-c434-440a-b217-e1cb0455960a"/>
+        <COMPID name="지역별 정렬" mc="Standard.UseCase" uid="00412304-1fe1-4ad9-81a8-dcd6e078d898"/>
+        <COMPID name="기간 단위 선택" mc="Standard.UseCase" uid="1c821493-5915-4869-bfa0-a2131b1e1158"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

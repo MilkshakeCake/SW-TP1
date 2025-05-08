@@ -52,6 +52,16 @@ GitHub URL: https://github.com/MilkshakeCake/SW-TP1
 
 **김민현**
 
+전체 Use Case Diagram을 작성하고, 팀원들과 비교 및 분석하는 시간을 가졌습니다.
+
+다음 사항들에 대해 Requirements List, Use Case Diagram, Description을 작성했습니다:
+1. 회원탈퇴 기능
+2. 로그인/로그아웃 기능
+3. 대여소 검색 기능
+4. 상세정보 조회 및 자전거 즉시대여/예약대기 기능
+
+팀원 최종윤 Requirements List, Use Case Diagram, Description이 타당한지 확인했습니다.
+
 **윤대현**
 
 **최종윤**
